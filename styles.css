@@ -1,0 +1,17 @@
+.topbar {
+    width: 95%;
+    length: 50px;
+    padding: 5px;
+    text-align: right;
+    margin: 20px;
+}
+a:link, a:visited {
+    text-decoration: none;
+    padding: 5px;
+}
+a:hover {
+    text-decoration: underline;
+}
+input, textarea {
+    border-radius: 5px;
+}
