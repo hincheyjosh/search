@@ -4,7 +4,6 @@
     text-align: right;
     margin: 20px;
     margin-right: 20px;
-    position: fixed;
 }
 a:link, a:visited {
     text-decoration: none;
@@ -15,7 +14,7 @@ a:hover {
     text-decoration: underline;
 }
 
-input[type=text] {
+.custom-input {
     width: 100%;
     border: 2px solid #dfe1e5;
     border-radius: 24px;
@@ -56,4 +55,26 @@ input[type=text]:hover {
     text-align: center;
     cursor: pointer;
     user-select: none;
+}
+
+.titlebar {
+    color:#d93025;
+    font-size: 25px;
+    padding: 15px;
+}
+
+.form-title {
+    color:rgb(0, 0, 0);
+    font-size: 15px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.row {
+    padding: 15px;
+}
+
+.col {
+    padding: 10px;
 }
